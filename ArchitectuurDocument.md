@@ -14,7 +14,7 @@
 
 ## Context diagram
 <p>De onderstaande diagram geeft een erg globaal overzicht van Echoo. Zo word er weergeven welke verschillende actors er gebruik maken van Echoo en met welke externe systemen echoo comuniceert</p>
-![ScreenShot](img/ContextDiagramV1.PNG.jpg)
+![ScreenShot](https://raw.githubusercontent.com/ProjectEchoo/EchooDocumentation/main/img/ContextDiagramV1.PNG?token=ANT4UECF426L7H6EITMPDPS7RE2EE)
 
 ## Container diagram
 <p>In deze diagram word er weergegeven uit welke onderdelen Echoo bestaat. Zo zien we dat een actor gebruikt maakt van de React web applicatie die vervolgens API calls maakt naar de Spring Cloud Gateway, Deze Gateway stuurt de API call vervolgens door naar de desbetreffende microservice. Ook zien we dat microservices onderling communiceren met behulp van een Message broker(RabbitMQ)</p>
