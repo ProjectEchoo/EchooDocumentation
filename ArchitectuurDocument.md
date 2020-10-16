@@ -20,9 +20,25 @@
 
 ## Container diagram
 <p>In deze diagram word er weergegeven uit welke onderdelen Echoo bestaat. Zo zien we dat een actor gebruikt maakt van de React web applicatie die vervolgens API calls maakt naar de Spring Cloud Gateway, Deze Gateway stuurt de API call vervolgens door naar de desbetreffende microservice. Ook zien we dat microservices onderling communiceren met behulp van een Message broker(RabbitMQ)</p>
-
+<p>
+    <img src="img/ContainerDiagramV3.PNG" />
+</p>
 
 ## Component diagram
 <p>In de onderstaande diagrammen word weergegeven uit welk verschillende componenten de microservices bestaan</p>
+<p>
+  
+  ### Account microservice component diagram
+  <img src="img/ComponentDiagramAccount.PNG" />
+  
+  ### Comment microservice & Message microservice component diagram
+  <img src="img/ComponentDiagramCommentMessage.PNG" />
+  
+  ### Group microservice & User relation microservice component diagram
+  <img src="img/ComponentDiagramGroupUserRelation.PNG" />
+  
+  ### Posts microservice component diagram
+  <img src="img/ComponentDiagramPosts.PNG" />
+</p>
 
 ## Code diagram
