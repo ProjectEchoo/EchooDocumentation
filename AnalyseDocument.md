@@ -64,7 +64,7 @@ De frontend van de applicatie wordt gemaakt in React en zal voor gebruikers besc
 *	K-ALG.01 Bij onjuiste invoer moet een duidelijke foutmelding getoond worden. 
 *	K-ALG.02 Bij een netwerk/server error moet er een duidelijke foutmelding getoond worden. 
 *	K-ALG.03 De webapplicatie beschikt over een verzorgde en duidelijke lay-out/ui. 
-*	K-ALG.04 De webapplicatie dient alle gebruikers aanvragen uiterst binnen 3 seconden te verhandelen. 
+*	K-ALG.04 De webapplicatie dient alle client aanvragen uiterst binnen 3 seconden te verhandelen. 
 
 <br>
 
